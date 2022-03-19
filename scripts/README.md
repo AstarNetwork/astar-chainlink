@@ -1,0 +1,1 @@
+scripts to configure contracts will be added
