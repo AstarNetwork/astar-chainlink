@@ -1,4 +1,4 @@
-const { getNamedAccounts, deployments, network } = require("hardhat")
+// npx hardhat deploy --network shibuya --tags fluxAggregator
 
 // For FluxAggregator
 PAYMENT_AMOUNT = "10000000000000000"
