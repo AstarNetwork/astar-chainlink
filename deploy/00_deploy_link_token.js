@@ -1,6 +1,4 @@
-// npx hardhat run scripts/1_deploy_link_token.js --network shibuya
-
-const { getNamedAccounts, deployments, network } = require("hardhat")
+// npx hardhat deploy --network shibuya --tags linkToken
 
 module.exports = async ({ getNamedAccounts, deployments}) => {
   const { deploy, log } = deployments
