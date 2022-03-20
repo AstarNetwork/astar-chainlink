@@ -11,6 +11,7 @@ module.exports = async ({ getNamedAccounts, deployments}) => {
   
   log("Link Token Deployed!")
   log("----------------------------------------------------")
-  log(linkToken.address)
+  log("LinkToken: %s", linkToken.address)
   log("----------------------------------------------------")
 }
+module.exports.tags = ["linkToken"]

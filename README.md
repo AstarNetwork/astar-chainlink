@@ -11,8 +11,7 @@ See https://github.com/smartcontractkit/chainlink/tree/develop/contracts
 
 For Price Data Feeds, utilizing Decentralized Data Model. Thus, corresponding contracts are used.
 
-
 ## Deploy
 ```
-npx hardhat deploy --network shibuya # optional --tags a,b,c
+npx hardhat deploy --network shibuya # optional --tags linkToken
 ```
