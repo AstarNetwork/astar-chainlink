@@ -13,11 +13,11 @@ For Price Data Feeds, utilizing Decentralized Data Model. Thus, corresponding co
 
 ## Contract Addresses
 ### Shibuya
-- Link Token
+Link Token
 ```
 0x2080b61De559b5f7d5230CA6DAE36B5aabbf534D
 ```
-- Price Feeds
+Price Feeds
 |  Base/Quote  |  Data Feed Contract  |
 | ---- | ---- |
 |  BTC / USD  |  0x1f4Fb4D3922F66fe2D34f57fE6532e51ac0a4C38  |
@@ -26,11 +26,11 @@ For Price Data Feeds, utilizing Decentralized Data Model. Thus, corresponding co
 |  SDN / USD  |  0x6cC5CBE69f00E257E2ef9eEe3d72af97d16E7244  |
 
 ### Shiden
-- Link Token
+Link Token
 ```
 0x2e145915c41dA47614Ac9248368773348f28ae25
 ```
-- Price Feeds
+Price Feeds
 |  Base/Quote  |  Data Feed Contract  |
 | ---- | ---- |
 |  BTC / USD  |  0x0c8C9C3C4493a626b9Fc1eA8929268a530b26595  |
@@ -39,11 +39,11 @@ For Price Data Feeds, utilizing Decentralized Data Model. Thus, corresponding co
 |  SDN / USD  |  0xFf42a93d3E8D4aA3f445648369e3Ab01DFb35354  |
 
 ### Astar
-- Link Token
+Link Token
 ```
 0xa6BE7DE34C30D98fd53b4EaE387bc0B72Dd764F5
 ```
-- Price Feeds
+Price Feeds
 |  Base/Quote  |  Data Feed Contract  |
 | ---- | ---- |
 |  BTC / USD  |  0xb6f603192D478D8787d2af3fEf40Fa8E262fEC69  |
