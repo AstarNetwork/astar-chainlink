@@ -1,7 +1,7 @@
 // npx hardhat deploy --network shibuya --tags fluxAggregator
 
 // For FluxAggregator
-PAYMENT_AMOUNT = "1000000000000000"
+PAYMENT_AMOUNT = "100000000000000000"
 TIMEOUT = "10"
 VALIDATOR = "0x0000000000000000000000000000000000000000"
 MIN_SSUBMISSION_VALUE = "1000000"
@@ -13,6 +13,9 @@ const pairDescriptions = {
   "BTC_USD": "BTC / USD",
   "ASTR_USD": "ASTR / USD",
   "SDN_USD": "SDN / USD",
+  "USDT_USD": "USDT / USD",
+  "USDC_USD": "USDC / USD",
+  "DAI_USD": "DAI / USD",
 }
 
 module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
@@ -31,6 +34,7 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
       contract: "FluxAggregator",
       from: deployer,
       log: true,
+      skipIfAlreadyDeployed: true,
       args: [
         linkToken.address,
         PAYMENT_AMOUNT,
