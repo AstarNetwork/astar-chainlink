@@ -61,6 +61,18 @@ Price Feeds
 |  DAI / USD  |  0xbCBE160931058B0d025013efDfCC150F9Df386fA  |
 
 ## Deploy
+e.g.
 ```
 npx hardhat deploy --network shibuya # optional --tags linkToken
 ```
+
+## Script
+e.g.
+```
+npx hardhat run scripts/change_oracles.js --network astar
+```
+
+# Chainlink node job difinitions TOML files
+They are managed by private repository.
+Please ask shunsukew for access permission
+https://github.com/shunsukew/chainlink-job-definitions
