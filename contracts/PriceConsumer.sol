@@ -16,7 +16,7 @@ contract PriceConsumer {
     /**
      * Returns the latest price
      */
-    function getThePrice() public view returns (uint80, int) {
+    function getThePrice() public view returns (int) {
         (
             uint80 roundID, 
             int price,
@@ -24,6 +24,6 @@ contract PriceConsumer {
             uint timeStamp,
             uint80 answeredInRound
         ) = priceFeed.latestRoundData();
-        return (roundID, price);
+        return price;
     }
 }
